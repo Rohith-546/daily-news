@@ -1,0 +1,10 @@
+<%- include("partials/header"); -%>
+    <h4><a href=<%=posts[0].url%> target="_blank"><%=posts[0].title%></a></h4>
+    <img src=<%=posts[0].urlToImage %> alt="">
+    <br><br><br>
+    <% for(let i=1; i < posts.length; i++) { %>
+        <h4 id="h4"><a href=<%=posts[i].url%> target="_blank"><%=posts[i].title%></a></h4>
+        <img src=<%=posts[i].urlToImage %> alt="">
+        <br><br><br>
+        <% } %>
+<%- include("partials/footer"); -%>
