@@ -9,7 +9,7 @@ app.set('view engine', 'ejs');
 app.use(urlencoded({extended: true}));
 app.use(express.static("public"));
 
-const apikey = "apiKey=058e988e042c4f4ca743c89e062c56cc";
+const apikey = "Your API key";
 const ps = "pageSize=8";
 const sbp = "sortBy=popularity";
 const cn = "country=in";
